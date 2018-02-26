@@ -1,0 +1,54 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  height: 90px;
+  background-color: white;
+  border-radius: 5px;
+  border-block-end-style: double;
+}
+
+.h1 {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  width: 6em;
+  margin: auto;
+  padding: 10px;
+  align-content: center;
+}
+
+.navbar {
+  display: flex;
+  background-color: blue;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  border-block-end-style: double;
+}
+
+.middle-jpg {
+  display: flex;
+  height: 70%;
+  margin-left: 10%;
+  margin-right: 40%;
+  padding: 10px;
+  width: 70%;
+  border: border;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 10%;
+  height: 90%;
+  background-color: white;
+  border-radius: 5px;
+  border-block-end-style: double;
+  flex-flow: row wrap;
+}
