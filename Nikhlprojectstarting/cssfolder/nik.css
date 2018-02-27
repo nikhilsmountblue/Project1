@@ -6,13 +6,17 @@
   background-color: white;
   border-radius: 5px;
   border-block-end-style: double;
+  color: blue;
+  padding-bottom: 1mm;
 }
 
 .h1 {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-inline-end: 10%;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .logo {
@@ -21,11 +25,13 @@
   margin: auto;
   padding: 10px;
   align-content: center;
+  float: left;
+  flex-flow: column-reverse;
 }
 
 .navbar {
   display: flex;
-  background-color: blue;
+  background-color: pink;
   height: 30px;
   margin: 10px;
   border-radius: 5px;
@@ -35,8 +41,9 @@
 .middle-jpg {
   display: flex;
   height: 70%;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-right: 40%;
+  margin-top: 10%;
   padding: 10px;
   width: 70%;
   border: border;
@@ -45,10 +52,33 @@
 .bottom {
   display: flex;
   justify-content: space-between;
-  margin: 10%;
-  height: 90%;
+  margin: 2%;
+  height: fit-content;
   background-color: white;
   border-radius: 5px;
   border-block-end-style: double;
-  flex-flow: row wrap;
+  flex: row wrap;
 }
+
+.b11 {
+  width: d=fit-content;
+  display: flex;
+  padding: 5%;
+}
+
+.b12 {
+  width: fit-content;
+  height: fit-content;
+  padding: 5%;
+}
+
+.b13 {
+  width: fit-content;
+  height: fit-content;
+  padding: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
